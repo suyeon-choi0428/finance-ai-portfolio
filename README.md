@@ -41,6 +41,8 @@
 
 [Figma 화면 기획·프로토타입 보기 · 작업 중](https://www.figma.com/design/L0rZsiiTEqGkKs4Z0OV4WP?node-id=0-1)
 
+[프로젝트 상세 보기](projects/news-briefing/README.md)
+
 ## 사용 기술·도구
 
 Python, pandas, NumPy, statsmodels, Matplotlib,
