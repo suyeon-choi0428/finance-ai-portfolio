@@ -23,6 +23,8 @@
 
 [Figma 화면 기획·프로토타입 보기](https://www.figma.com/design/L0rZsiiTEqGkKs4Z0OV4WP?node-id=0-1)
 
+[프로젝트 상세 보기](projects/news-briefing/README.md)
+
 ## 결과물의 범위
 
 - 통계 분석은 지표와 업종의 관계를 탐색한 작업이며,

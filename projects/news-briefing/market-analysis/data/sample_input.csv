@@ -1,0 +1,5 @@
+﻿date,previous_sector_date,sector_code,sector_name,sector_return_pct,kospi_return_pct,KR3Y_change,KR10Y_change,KR_CORP_AA3Y_change,KR_CREDIT_change,KR_CURVE_change,USDKRW_change
+2026-11-04,2026-11-03,DEMO_A,가상 업종 A,0.3,0.1,1,2,3,2,1,0.2
+2026-11-04,2026-11-03,DEMO_B,가상 업종 B,-0.2,0.1,1,2,3,2,1,0.2
+2026-11-05,2026-11-04,DEMO_A,가상 업종 A,0.3,0.1,1,2,3,2,1,0.2
+2026-11-05,2026-11-04,DEMO_B,가상 업종 B,-0.2,0.1,1,2,3,2,1,0.2
