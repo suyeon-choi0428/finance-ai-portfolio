@@ -1,0 +1,12 @@
+{
+  "source_archive": "FDS_mini_시연.zip",
+  "app_sha256": "7aa82d8f409a807bdff8b99172b81efb37fbbe657ea367ab4b132196202a5621",
+  "syntax_check": "passed",
+  "app_matches_original": true,
+  "browser_runtime_tested_this_session": false,
+  "excluded": [
+    "personal SQLite preferences",
+    "raw news and disclosure files",
+    "saved result datasets and explanations"
+  ]
+}
