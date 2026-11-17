@@ -49,3 +49,13 @@ Streamlit, Neo4j, Cypher, Figma
 
 26개 업종과 6개 금융지표의 156개 조합을 비교했습니다.
 분석 코드, 결과표, 데이터 검증 과정과 해석상 한계를 정리했습니다.
+## 뉴스 수집 및 Neo4j 대표 코드
+
+[뉴스 수집·관계 검증·Neo4j 파일럿 설명](news-pipeline/README.md)
+
+- [RSS 뉴스 수집 코드](news-pipeline/portable/rss_core.py)
+- [수집 실행 CLI](news-pipeline/portable/rss_collect.py)
+- [본문 추출·관계 검증·Neo4j 적재 코드](news-pipeline/portable/pipeline.py)
+- [Neo4j 조회 쿼리](news-pipeline/portable/queries.cypher)
+
+기존 팀 전달용 보조 코드를 선별한 자료입니다. 관계는 사전 작성한 주석을 검증하며 자동 의미 추출은 구현하지 않았습니다. 가상 예제로 오프라인 실행을 확인했고, 실제 기사 전문과 DB 접속 정보는 포함하지 않았습니다.

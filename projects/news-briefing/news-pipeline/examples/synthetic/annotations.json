@@ -1,0 +1,106 @@
+{
+  "schema_version": "handoff-annotation-v1",
+  "example_kind": "SYNTHETIC_NOT_REAL",
+  "sources": [
+    {
+      "source_id": "SYN-D-2025",
+      "origin": "disclosure",
+      "title": "SYNTHETIC Alpha annual 2025",
+      "report_period_start": "2025-01-01",
+      "report_period_end": "2025-12-31",
+      "official_url": null,
+      "text": "SYNTHETIC: Alpha Devices supplies inspection equipment to Beta Memory."
+    },
+    {
+      "source_id": "SYN-D-2026H1",
+      "origin": "disclosure",
+      "title": "SYNTHETIC Alpha interim 2026",
+      "report_period_start": "2026-01-01",
+      "report_period_end": "2026-06-30",
+      "official_url": null,
+      "text": "SYNTHETIC: Alpha Devices supplies inspection equipment to Beta Memory."
+    },
+    {
+      "source_id": "SYN-N-1",
+      "origin": "news",
+      "title": "SYNTHETIC Beta expansion plan",
+      "url": "https://example.invalid/synthetic-news",
+      "published_utc": "2026-10-27T00:00:00+00:00",
+      "text": "SYNTHETIC: Beta Memory plans to expand its wafer inspection line in 2027."
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "SYN-R1",
+      "source_id": "SYN-D-2025",
+      "subject": {
+        "id": "SYN-ALPHA",
+        "name": "SYNTHETIC Alpha Devices",
+        "kind": "Company"
+      },
+      "predicate": "supplies_equipment",
+      "object": {
+        "id": "SYN-BETA",
+        "name": "SYNTHETIC Beta Memory",
+        "kind": "Company"
+      },
+      "evidence_text": "SYNTHETIC: Alpha Devices supplies inspection equipment to Beta Memory.",
+      "status": "reported",
+      "report_period_start": "2025-01-01",
+      "report_period_end": "2025-12-31",
+      "reviewer": "synthetic_example_author",
+      "notes": "Fictional example; not real investment evidence."
+    },
+    {
+      "annotation_id": "SYN-R2",
+      "source_id": "SYN-D-2026H1",
+      "subject": {
+        "id": "SYN-ALPHA",
+        "name": "SYNTHETIC Alpha Devices",
+        "kind": "Company"
+      },
+      "predicate": "supplies_equipment",
+      "object": {
+        "id": "SYN-BETA",
+        "name": "SYNTHETIC Beta Memory",
+        "kind": "Company"
+      },
+      "evidence_text": "SYNTHETIC: Alpha Devices supplies inspection equipment to Beta Memory.",
+      "status": "reported",
+      "report_period_start": "2026-01-01",
+      "report_period_end": "2026-06-30",
+      "reviewer": "synthetic_example_author",
+      "notes": "Fictional example; not real investment evidence."
+    },
+    {
+      "annotation_id": "SYN-R3",
+      "source_id": "SYN-N-1",
+      "subject": {
+        "id": "SYN-BETA",
+        "name": "SYNTHETIC Beta Memory",
+        "kind": "Company"
+      },
+      "predicate": "plans_expansion",
+      "object": {
+        "id": "SYN-LINE",
+        "name": "SYNTHETIC wafer inspection line",
+        "kind": "Facility"
+      },
+      "evidence_text": "SYNTHETIC: Beta Memory plans to expand its wafer inspection line in 2027.",
+      "status": "plan",
+      "event": {
+        "status": "plan",
+        "planned_year": 2027
+      },
+      "reviewer": "synthetic_example_author"
+    },
+    {
+      "annotation_id": "SYN-C1",
+      "status": "unconfirmed",
+      "missing_evidence": [
+        "Named component adoption and counterpart contract not available"
+      ],
+      "notes": "No CLAIM generated for this candidate."
+    }
+  ]
+}
